@@ -8,6 +8,7 @@
     "copy": "cp Nodejs/from/webapp.war Nodejs/to_folder/",
     "ls": "ls Nodejs/to_folder",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "add": "git add /Nodejs .",
     "naga": "node naga.js"
   },
   "repository": {
