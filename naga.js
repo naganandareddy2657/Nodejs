@@ -16,7 +16,7 @@ function cbadd(err, strout, sdtin){
         console.log(err);
         return;
     }
-    exec('git commit -m \"hele\"', cbcommit);
+    exec('git commit -a \"hele\"', cbcommit);
 }
 
 function cbcommit(err, strout, sdtin){
@@ -24,7 +24,6 @@ function cbcommit(err, strout, sdtin){
         console.log(err);
         return;
     }
-   
 }
 
 //git clone https://github.com/naganandareddy2657/Nodejs.git
