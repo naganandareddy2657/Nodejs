@@ -1,0 +1,24 @@
+{
+  "name": "nodeproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "pwd": "pwd",
+    "copy": "cp Nodejs/from/webapp.war Nodejs/to_folder/",
+    "ls": "ls Nodejs/to_folder",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "naga": "node naga.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naganandareddy2657/Nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/naganandareddy2657/Nodejs/issues"
+  },
+  "homepage": "https://github.com/naganandareddy2657/Nodejs#readme"
+}
