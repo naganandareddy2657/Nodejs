@@ -9,6 +9,7 @@
     "ls": "ls Nodejs/to_folder",
     "test": "echo \"Error: no test specified\" && exit 1",
     "add": "git add /Nodejs .",
+    "commit": "git commit -m \"commited nodejs\" ",
     "naga": "node naga.js"
   },
   "repository": {
