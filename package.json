@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "pwd": "pwd",
-    "copy": "cp Nodejs/from/webapp.war Nodejs/to_folder/",
+    "copy": "cp from/webapp.war to_folder/",
     "ls": "ls Nodejs/to_folder",
     "test": "echo \"Error: no test specified\" && exit 1",
     "push": "git origin -u push master",
