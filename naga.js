@@ -16,7 +16,7 @@ function cbadd(err, strout, sdtin){
         console.log(err);
         return;
     }
-    exec('git commit -m \"hello\"',cbcommit);
+    exec('git commit -m \"hello123\"',cbcommit);
 }
 
 function cbcommit(err, strout, sdtin){
