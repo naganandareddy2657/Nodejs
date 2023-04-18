@@ -25,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/naganandareddy2657/Nodejs/issues"
   },
-  "homepage": "https://github.com/naganandareddy2657/Nodejs#readme"
+  "homepage": "https://github.com/naganandareddy2657/Nodejs#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo \"Pre-commit msg\""
+    }
+  }
 }
