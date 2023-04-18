@@ -3,7 +3,7 @@ const { callbackify } = require('util');
 //node naga.js real update message 
 console.log("this is child class \"naga\"");
 let args = process.argv;
-args.splice(0,1);
+args.splice(0,2);
 let str = args.join(' ');
 
 console.log('naga.js');
