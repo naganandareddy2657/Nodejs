@@ -3,30 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "dependencies": {
-    "husky": "^8.0.3"
-  },
-  "devDependencies": {},
   "scripts": {
     "pwd": "pwd",
     "copy": "cp from/webapp.war to_folder/",
     "ls": "ls to_folder/",
     "test": "echo \"Error: no test specified\" && exit 1",
     "push": "git origin -u push master",
-    "naga": "node naga.js"
+    "naga": "node naga.js",
+    "prepare": "husky install"
   },
-
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo \"pre-commit\"",
-      "pre-applypatch": "echo \"pre-applypatch\""
-    //   “applypatch-msg”: “echo \”[Husky] applypatch-msg\””,
-    // “pre-applypatch”: “echo \”[Husky] pre-applypatch\””,
-    // “post-applypatch”: “echo \”[Husky] post-applypatch\””,
-   // “”: “echo \”[Husky] pre-commit\””
-    }
-  },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/naganandareddy2657/Nodejs.git"
@@ -37,6 +22,8 @@
   "bugs": {
     "url": "https://github.com/naganandareddy2657/Nodejs/issues"
   },
-  "homepage": "https://github.com/naganandareddy2657/Nodejs#readme"
-  
+  "homepage": "https://github.com/naganandareddy2657/Nodejs#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
 }
