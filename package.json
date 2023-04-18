@@ -15,6 +15,14 @@
     "push": "git origin -u push master",
     "naga": "node naga.js"
   },
+
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo \"Pre-commit msg\""
+    }
+  },
+
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/naganandareddy2657/Nodejs.git"
@@ -25,10 +33,6 @@
   "bugs": {
     "url": "https://github.com/naganandareddy2657/Nodejs/issues"
   },
-  "homepage": "https://github.com/naganandareddy2657/Nodejs#readme",
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo \"Pre-commit msg\""
-    }
-  }
+  "homepage": "https://github.com/naganandareddy2657/Nodejs#readme"
+  
 }
