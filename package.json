@@ -24,7 +24,7 @@
   "homepage": "https://github.com/naganandareddy2657/Nodejs#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "echo \"this is pre-commit\"",
+      "pre-commit": "echo \"[Husky this is pre-commit\"",
       "pre-push": "echo \"this is pre-commit\"",
       "post-commit": "echo \"this is pre-commit\"",
       "post-push": "echo \"this is pre-commit\""
