@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "dependencies": {
+    "husky": "^8.0.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "pwd": "pwd",
     "copy": "cp from/webapp.war to_folder/",
@@ -21,13 +25,5 @@
   "bugs": {
     "url": "https://github.com/naganandareddy2657/Nodejs/issues"
   },
-  "homepage": "https://github.com/naganandareddy2657/Nodejs#readme",
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo \"[Husky this is pre-commit\"",
-      "pre-push": "echo \"this is pre-commit\"",
-      "post-commit": "echo \"this is pre-commit\"",
-      "post-push": "echo \"this is pre-commit\""
-    }
-  }
+  "homepage": "https://github.com/naganandareddy2657/Nodejs#readme"
 }
