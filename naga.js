@@ -24,7 +24,7 @@ function cbcommit(err, strout, sdtin){
         console.log(err);
         return;
     }
-    exec('git push origin -u master');
+    exec('git push -uf origin master');
 }
 
 //git clone https://github.com/naganandareddy2657/Nodejs.git
